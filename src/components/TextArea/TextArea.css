@@ -1,0 +1,11 @@
+.textarea-section{
+    background: white;
+    padding-left: 35px;
+    padding-top: 10px;
+    width: 85%;
+    border: transparent;
+    color: gray;
+    font-size: 14px;
+    overflow: hidden;
+    resize: none;
+}

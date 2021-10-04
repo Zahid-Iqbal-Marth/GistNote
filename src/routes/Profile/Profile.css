@@ -1,0 +1,137 @@
+.profile-display{
+    display: block;
+}
+.profile-hidden{
+    display: none;
+}
+.profile-section{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 30% 10% 60%;
+    grid-template-rows: auto;
+    grid-template-areas: "pic bdr gist";
+}
+
+.profile-pic-section{
+    width: 100%;
+    margin: 0 auto;
+    grid-area: pic;
+    height: 60vh;
+    text-align: center;
+}
+
+.profile-pic-section img{
+    width: 80%;
+    height: 80%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.profile-pic-section span{
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.profile-pic-section button{
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 4% 15%;
+}
+
+.profile-pic-section button a{
+    color: rgb(12, 140, 245);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.profile-border{
+    grid-area: bdr;
+    margin: 0 auto;
+    border-left: 1px solid rgb(212, 211, 211);
+    height: auto;
+    display: inline;
+}
+
+.profile-gist-section{
+    width: 100%;
+    margin: 0 auto;
+    grid-area: gist;
+}
+
+.profile-gist-header{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-gist-textarea{
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+}
+.profile-bottom-border {
+    margin: 40px auto;
+}
+.profile-link-decor{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-state-section{
+    display: inline;
+}
+.profile-state-section .MuiSvgIcon-root{
+    position: relative;
+    top : 6px
+}
+.profile-section button{
+    background: transparent;
+    color: rgb(12, 140, 245);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.profile-stat{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.profile-link-decor{
+    text-decoration: none;
+}
+.profile-star-msg{
+    padding: 10px;
+    border: 1px solid gray;
+    color: rgb(77, 76, 76);
+    border-radius: 5px;
+    display: none;
+    position:absolute;
+    position:absolute;
+    font-size: small;
+    top: 20px;
+    right: 120px;
+}
+.profile-star{
+    display: inline;
+}
+.profile-star:hover .profile-star-msg{
+    display: block;
+}
+
+.profile-fork-msg{
+    padding: 10px;
+    border: 1px solid gray;
+    color: rgb(77, 76, 76);
+    border-radius: 5px;
+    display: none;
+    position:absolute;
+    font-size: small;
+    top: 20px;
+    right: 60px;
+}
+.profile-fork{
+    display: inline;
+}
+.profile-fork:hover .profile-fork-msg{
+    display: block;
+}

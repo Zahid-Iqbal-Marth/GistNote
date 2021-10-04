@@ -1,0 +1,115 @@
+nav{
+    background-color: rgb(36, 156, 116);
+    height: 70px;
+}
+
+.navbar-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    max-width: 90%;
+    margin: auto;
+}
+.navbar-logo{
+    width: 300px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+}
+.navbar-left{
+    display: flex;
+}
+.navbar-search-section{
+    border: 1px white solid;
+    border-radius: 2px;
+    background: transparent;
+    position: relative;
+    right: 20px;
+    height: 35px;
+}
+.navbar-search-bar{
+    padding: 8px;
+    width: 250px;
+    background: transparent;
+    border: transparent;
+
+}
+.navbar-search-bar::placeholder{
+    color: white;
+}
+.navbar-search-bar:focus{
+    outline: none !important;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+}
+.navbar-search-icon{
+    color: white;
+    padding-left: 10px;
+    position:inherit;
+    right: 10px;
+    cursor: pointer;
+}
+.navbar-search-btn{
+    background: transparent;
+    border: none;
+}
+.navbar-login-btn{
+    background-color: white;
+    color: rgb(36, 156, 116);
+    height: 32px;
+    width: 90px;
+    border: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.navbar-dp-btn{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 4px;
+}
+
+.navbar-profile-menu{
+    position: fixed;
+    top: 70px;
+    right: 5%;
+    width: 200px;
+    height: auto;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    z-index: 2;
+}
+.navbar-link-decor{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-profile-menu-content{
+    padding: 10px;
+}
+.navbar-profile-menu-content p{
+    color: rgb(98, 98, 98);
+    font-size: 15px;
+    padding: 10px;
+}
+.navbar-profile-menu-content button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    color: rgb(98, 98, 98);
+    font-size: 15px;
+}
+.navbar-profile-menu-content button a{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+/* I'm using !important because "MuiSvgIcon-root" class applied on the icon-element
+had more specificity. */
+.MuiSvgIcon-root{
+    font-size: 20px !important;
+    position: relative !important;
+    top: 5px !important;
+}

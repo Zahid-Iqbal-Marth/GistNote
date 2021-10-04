@@ -1,0 +1,18 @@
+.error-message{
+    position: relative;
+    margin-top: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    /* animation-name: error;
+  animation-duration: 3s;
+  animation-iteration-count: infinite; */
+  }
+  
+/* @keyframes error{
+50%{
+    font-size: 40px;
+    color: red;
+}
+} */

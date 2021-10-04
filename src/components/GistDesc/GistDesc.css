@@ -1,0 +1,18 @@
+.gistdesc-section{
+    padding: 5px;
+    display: flex;
+    font-size: 11px;
+}
+.gistdesc-text-details{
+    margin-left: 20px;
+}
+.gistdesc-name-notes{
+    color: rgb(12, 140, 245);
+}
+.gistdesc-time-keyword{
+    color: gray;
+}
+.gistdesc-link-decor{
+    text-decoration: none;
+    cursor: pointer;
+}

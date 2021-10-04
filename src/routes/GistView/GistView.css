@@ -1,0 +1,35 @@
+.gridview-view-type{
+    display: flex;
+    justify-content: flex-end;
+}
+.gridview-view-type button{
+    background: transparent;
+    cursor: pointer;
+    border: none;
+}
+.gridview-vb{
+    border-left: 1px solid gray;
+    height: 30px;
+    margin-top: 10px;
+    display: inline;
+}
+.gridview-icon{
+    padding: 10px;
+    font-size: 30px;
+    color: gray;
+}
+.gridview-icon-selected{
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(36, 156, 116);
+}
+.gridview-view{
+    max-width: 90%;
+    margin: auto;
+}
+.gridview-display{
+    display: block;
+}
+.gridview-hidden{
+    display: none;
+}

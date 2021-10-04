@@ -1,0 +1,110 @@
+.gistdetailedview-section{
+    margin: 0 auto;
+    max-width: 80%;
+}
+.gistdetailedview-desc{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gistdetailedview-handlers{
+    display: flex;
+}
+
+.gistdetailedview-handlers button{
+    background: transparent;
+    color: rgb(12, 140, 245);
+    border: none;
+    font-size: 15px;
+    /* cursor: pointer; */
+}
+.gistdetailedview-update-btn{
+    position: relative;
+    bottom: 15px;
+}
+
+.gistdetailedview-notes{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px ;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.gistdetailedview-title{
+    padding: 10px;
+    border-bottom: 1px solid rgb(228, 227, 227);
+}
+.gistdetailedview-code-icon{
+    border: 1px solid black;
+    padding: 2px;
+    color: gray;
+}
+.gistdetailedview-name{
+    color: rgb(12, 140, 245);
+    margin-left: 10px;
+}
+.gistdetailedview-eventhandlers{
+    top: 10px;
+    position: relative;
+}
+
+.gistdetailedview-states-section {
+    display: inline;
+    position: relative;
+    top: 9px;
+}
+.gistdetailedview-states-section .MuiSvgIcon-root{
+    position: relative;
+    top : 6px
+}
+.gistdetailedview-section button{
+    background: transparent;
+    color: rgb(12, 140, 245);
+    border: none;
+    font-size: 15px;
+    /* cursor: pointer; */
+}
+.gistdetailedview-stat{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.gistdetailedview-link-decor{
+    text-decoration: none;
+}
+.gistdetailedview-star-msg{
+    padding: 10px;
+    border: 1px solid gray;
+    color: rgb(77, 76, 76);
+    border-radius: 5px;
+    display: none;
+    position:absolute;
+    position:absolute;
+    font-size: small;
+    top: 30px;
+    right: 160px;
+}
+.gistdetailedview-star{
+    display: inline;
+}
+.gistdetailedview-star:hover .gistdetailedview-star-msg{
+    display: block;
+}
+
+.gistdetailedview-fork-msg{
+    padding: 10px;
+    border: 1px solid gray;
+    color: rgb(77, 76, 76);
+    border-radius: 5px;
+    display: none;
+    position:absolute;
+    font-size: small;
+    top: 30px;
+    right: 70px;
+}
+.gistdetailedview-fork{
+    display: inline;
+}
+.gistdetailedview-fork:hover .gistdetailedview-fork-msg{
+    display: block;
+}
