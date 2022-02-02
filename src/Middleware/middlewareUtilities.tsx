@@ -1,6 +1,6 @@
 export const returnAPI: (params: string) => string = (params: string) =>
   `https://api.github.com/${params}`;
-export const AUTH_TOKEN = " token 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";
+export const AUTH_TOKEN = " token <your github access token>";
 export const returnHeaders: (
   method?: string,
   body?: string,
