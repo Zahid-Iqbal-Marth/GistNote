@@ -72,7 +72,7 @@ const Navbar: (props: object) => JSX.Element = (props: object) => {
     );
 
   const handleLogin: () => void = useCallback(() => {
-    dispatch(loginAPI("Zahid-Iqbal-Marth"));
+    dispatch(loginAPI("<your github user name>"));
   }, []);
 
   const handleProfileMenu: () => void = useCallback(() => {
