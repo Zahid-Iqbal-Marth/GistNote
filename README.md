@@ -8,7 +8,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 2 - For Login Functionality - Please palce your github usename in at Line:75 in Navbar.tsx file
 
 # OverView
-GistNotes is a plate from GitHub, When developers can View/Create/Update/Delete Gists. Gists are defined as code snippets. I have created a Clone of this plate form. Which has following features<br />
+GistNotes is a plateform from GitHub, Where developers can View/Create/Update/Delete Gists. Gists are defined as code snippets. I have created a Clone of this plate form. Which has following features<br /><br />
 1 - User can view gists in Table and Grid View<br />
 2 - User can view details of a gist<br />
 3 - User can view profile of the gist owner<br />
